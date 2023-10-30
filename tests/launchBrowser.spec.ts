@@ -9,6 +9,6 @@ describe('launch Browser',() => {
         const context = await browser.newContext();
         const page = await context.newPage();
         await page.goto('https://playwright.dev/docs/intro')
-        await browser.close()
+        await browser.close();
     })
 })
