@@ -35,5 +35,6 @@ export default class RegisterPage{
         //     this.page.waitForNavigation({waitUntil:"networkidle"})
         // ])
         await this.page.click("//input[@value='Continue']")
+        // register
     }
 }

@@ -8,7 +8,7 @@ export default class LoginPage {
         await this.enterLoginPassword(password);
         await this.clickLoginBtn();
     }
-
+// email
     async enterEmail(emailadress: string) {
         await this.page.locator("#input-email").fill(emailadress);
     }

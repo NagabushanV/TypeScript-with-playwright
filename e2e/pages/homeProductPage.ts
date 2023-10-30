@@ -25,7 +25,7 @@ export default class HomeProductPage {
         const toast = this.page.locator("//a[.='View Cart ']");
         await toast.waitFor({ state:"visible" });
         return toast;
-        
+        // return
 
     }
 }

@@ -4,7 +4,7 @@ import HomePage from './HomePage';
 export default class SpecialHotPage{
 
     constructor(public page: Page) { }
-
+// SpecialHotPage
     async addFirstProductToTheCart() {
         await this.page.hover("//div[@class='image']/a", {
             strict: false

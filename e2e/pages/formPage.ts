@@ -20,5 +20,6 @@ export default class From {
     }
     async enterlastName(lname: string) {
         await this.page.locator(this.lastName).type(lname);
+        // hdbchjadbhb
     }
 }

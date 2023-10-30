@@ -5,7 +5,7 @@ export default class HomePage{
     // }
 
     constructor(public page: Page) {
-
+// page
     }
     async clickOnHomeMenu() {
         await Promise.all([

@@ -33,7 +33,7 @@ test("Login test_02", async ({ page, baseURL })=>{
     await login.clickLoginBtn();
     expect(await page.title()).toBe("My Account");
 })
-
+// 
 test("add to cart", async ({ page, baseURL }) => {
     const login = new LoginPage(page);
     const homePage = new HomePage(page);
