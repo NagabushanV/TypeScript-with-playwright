@@ -12,7 +12,7 @@ const config: PlaywrightTestConfig ={}
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './e2e',
+  testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -26,7 +26,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   // testMatch: ["pomtest/addToCart.test.ts"],
   use: {
-    baseURL: "https://ecommerce-playground.lambdatest.io/index.php?",
+    baseURL: "https://localhost:5000",
     headless: false,
     screenshot: "on",
     video: "on",

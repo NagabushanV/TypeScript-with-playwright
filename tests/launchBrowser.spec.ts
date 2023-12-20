@@ -1,5 +1,5 @@
 import { chromium } from '@playwright/test';
-import test, { describe } from "node:test";
+import {test, describe } from "node:test";
 describe('launch Browser',() => {
 // describe
     test('Open playwright', async ()=>{

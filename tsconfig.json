@@ -1,9 +1,17 @@
 {
     "compilerOptions": {
-        "target": "ES6",
-        "strict": true,
-        "module": "CommonJS",
-        "sourceMap": true
+        "target": "ESNext",
+        "module": "commonjs",
+        "moduleResolution": "Node",
+        "sourceMap": true,
+        "outDir": "../tests-out",
+        // "resolveJsonModule": true,
+        // "types": [
+        //     "@types/jest",
+        //     "jest-playwright-preset",
+        //     "expect-playwright",
+            
+
+        // ]
     }
 }
-// }

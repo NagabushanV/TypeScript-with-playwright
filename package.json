@@ -7,12 +7,15 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "jest"
+    "stat": "node index.js",
+    "test":"npx playwright test",
+    "report":"npx playwright test --reporter=html && npx playwright show-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^29.7.0",
     "@playwright/test": "^1.39.0",
     "@types/node": "^20.8.9",
     "ts-jest": "^29.1.1",
@@ -20,19 +23,6 @@
   },
   "dependencies": {
     "jest": "^29.7.0"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest"
-    },
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
   }
 }
 

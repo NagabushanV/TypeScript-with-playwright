@@ -1,5 +1,4 @@
 import { Page } from "@playwright/test";
-import { strict } from "assert";
 export default class HomeProductPage {
 
     constructor(public page: Page) {
